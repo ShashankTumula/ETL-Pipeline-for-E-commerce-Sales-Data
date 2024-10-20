@@ -31,6 +31,7 @@ The **Advanced ETL Pipeline for Sales Data Insights** project is designed to sys
 
 
 6. **Output (`main.py`):**
+      ```
       src\extract.py:15: DtypeWarning: Columns (23) have mixed types. Specify dtype option on import or set low_memory=False.
       df = pd.read_csv(file_path, encoding='utf-8')
       INFO:src.extract:Extracted 128975 records
@@ -129,7 +130,7 @@ The **Advanced ETL Pipeline for Sales Data Insights** project is designed to sys
       619       J0230-SKD-S   73269.0
       618       J0230-SKD-M   59159.0
       INFO:__main__:ETL pipeline executed successfully
-
+      ```
 5. **Environment and Deployment:**
    - Utilizes environment variables for secure configuration management.
    - Provides Docker support for containerization, ensuring consistent deployment across different environments.

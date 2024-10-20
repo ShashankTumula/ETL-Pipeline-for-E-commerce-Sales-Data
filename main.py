@@ -21,7 +21,7 @@ def main():
     
     try:
         # Paths and configurations
-        raw_data_path = "data\\raw\\Amazon Sale Report.csv"
+        raw_data_path = os.path.join('data', 'raw', 'Amazon Sale Report.csv')
         processed_data_path = os.path.join('data', 'processed', 'cleaned_sales_data.csv')
         bucket_name = os.getenv('S3_BUCKET_NAME')
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')

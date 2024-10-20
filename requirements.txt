@@ -3,4 +3,3 @@ boto3
 python-dotenv
 sqlalchemy
 psycopg2-binary
-logging

@@ -38,7 +38,7 @@ The **Advanced ETL Pipeline for Sales Data Insights** project is designed to sys
       INFO:src.transform:Starting data transformation
       INFO:src.transform:Removed 0 duplicate records
       INFO:src.transform:Data shape after dropping missing values: (19379, 24)
-      c:\ETL-Pipeline-for-Sales-Data-Insights\src\transform.py:25: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+      c:\__\__\Shashank\ETL-Pipeline-for-Sales-Data-Insights\src\transform.py:25: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
       df['Date'] = pd.to_datetime(df['Date'])
       INFO:src.transform:Converted 'Date' column to datetime
       INFO:src.load:Uploading cleaned_sales_data_20241019_201718.csv to S3 bucket: examplebucneonman
